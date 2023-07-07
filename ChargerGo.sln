@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChargerGo.WebAPI", "ChargerGo.WebAPI\ChargerGo.WebAPI.csproj", "{8F64E597-DE9A-434C-A236-1BDA577B3966}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1FE4CDD7-1B89-4DC6-92CF-EA31BF371F16} = {1FE4CDD7-1B89-4DC6-92CF-EA31BF371F16}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChargerGo.Business", "ChargerGo.Business\ChargerGo.Business.csproj", "{52853880-ACAE-4D08-A151-3C4D5304BAD5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1FE4CDD7-1B89-4DC6-92CF-EA31BF371F16} = {1FE4CDD7-1B89-4DC6-92CF-EA31BF371F16}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChargerGo.DataAccsess", "ChargerGo.DataAccsess\ChargerGo.DataAccsess.csproj", "{A676A32B-6CFB-4092-BE89-BE7885D9E055}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1FE4CDD7-1B89-4DC6-92CF-EA31BF371F16} = {1FE4CDD7-1B89-4DC6-92CF-EA31BF371F16}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChargerGo.Model", "ChargerGo.Model\ChargerGo.Model.csproj", "{3563ACCA-40A6-4471-98C5-64D66149BACC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1FE4CDD7-1B89-4DC6-92CF-EA31BF371F16} = {1FE4CDD7-1B89-4DC6-92CF-EA31BF371F16}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "..\AHLYazilim\18 Haziran\WS\Infrastructure\Infrastructure.csproj", "{1FE4CDD7-1B89-4DC6-92CF-EA31BF371F16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F64E597-DE9A-434C-A236-1BDA577B3966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F64E597-DE9A-434C-A236-1BDA577B3966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F64E597-DE9A-434C-A236-1BDA577B3966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F64E597-DE9A-434C-A236-1BDA577B3966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52853880-ACAE-4D08-A151-3C4D5304BAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52853880-ACAE-4D08-A151-3C4D5304BAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52853880-ACAE-4D08-A151-3C4D5304BAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52853880-ACAE-4D08-A151-3C4D5304BAD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A676A32B-6CFB-4092-BE89-BE7885D9E055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A676A32B-6CFB-4092-BE89-BE7885D9E055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A676A32B-6CFB-4092-BE89-BE7885D9E055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A676A32B-6CFB-4092-BE89-BE7885D9E055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3563ACCA-40A6-4471-98C5-64D66149BACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3563ACCA-40A6-4471-98C5-64D66149BACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3563ACCA-40A6-4471-98C5-64D66149BACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3563ACCA-40A6-4471-98C5-64D66149BACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE4CDD7-1B89-4DC6-92CF-EA31BF371F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE4CDD7-1B89-4DC6-92CF-EA31BF371F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE4CDD7-1B89-4DC6-92CF-EA31BF371F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE4CDD7-1B89-4DC6-92CF-EA31BF371F16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB761A26-86E5-4400-A9BA-271717433ECD}
+	EndGlobalSection
+EndGlobal
